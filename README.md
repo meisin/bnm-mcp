@@ -35,7 +35,7 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 
 1. Clone this repository.
 ```sh
-git clone 
+git clone https://github.com/meisin/bnm-mcp.git
 ```
 
 2. Install dependencies.

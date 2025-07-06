@@ -12,17 +12,17 @@ This MCP server is neither affiliated with BNM nor endorsed by BNM; the server l
 
 **`get_exchange_rate`** - Get currency exchange rates from the Interbank Foreign Exchange Market in Kuala Lumpur. Prices of selected countries' currencies are quoted in relation to Ringgit.
 
-`get_usd_myr_intraday_rate` - Get latest USD/MYR (US Dollar - Malaysian Ringgit) interbank intraday highest and lowest exchange rate. Rates are obtained from the best U.S. dollar against Malaysian ringgit interbank highest and lowest dealt rates by commercial banks.
+**`get_usd_myr_intraday_rate`** - Get latest USD/MYR (US Dollar - Malaysian Ringgit) interbank intraday highest and lowest exchange rate. Rates are obtained from the best U.S. dollar against Malaysian ringgit interbank highest and lowest dealt rates by commercial banks.
 
-`get_usd_myr_reference_rate` - Get latest reference rate that is computed based on weighted average volume of the interbank USD/MYR FX spot rate transacted by the domestic financial institutions and published daily at 3:30 p.m.
+**`get_usd_myr_reference_rate`** - Get latest reference rate that is computed based on weighted average volume of the interbank USD/MYR FX spot rate transacted by the domestic financial institutions and published daily at 3:30 p.m.
 
-`get_daily_FX_turnover` - Get daily foreign exchange turnover for all currencies including interbank and customer deals.
+**`get_daily_FX_turnover`** - Get daily foreign exchange turnover for all currencies including interbank and customer deals.
 
 ### Interest Rates
 
-`get_base_rate` - Get current Base Rates or Base Lending Rates for retail loans or financing facilities and Indicative Effective Lending Rates for a standard housing loan/home financing offered by financial institutions in Malaysia.
+**`get_base_rate`** - Get current Base Rates or Base Lending Rates for retail loans or financing facilities and Indicative Effective Lending Rates for a standard housing loan/home financing offered by financial institutions in Malaysia.
 
-`get_overnight_policy_rate` - Get Overnight Policy Rate (OPR) decided by the Monetary Policy Committee.
+**`get_overnight_policy_rate`** - Get Overnight Policy Rate (OPR) decided by the Monetary Policy Committee.
 
 `get_malaysia_overnight_rate_i` - Get Malaysia overnight rate from Bank Negara Malaysia.
 

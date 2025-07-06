@@ -10,7 +10,7 @@ This MCP server is neither affiliated with BNM nor endorsed by BNM; the server l
 
 ### Exchange Rates & Currency
 
-`get_exchange_rate` - Get currency exchange rates from the Interbank Foreign Exchange Market in Kuala Lumpur. Prices of selected countries' currencies are quoted in relation to Ringgit.
+**`get_exchange_rate`** - Get currency exchange rates from the Interbank Foreign Exchange Market in Kuala Lumpur. Prices of selected countries' currencies are quoted in relation to Ringgit.
 
 `get_usd_myr_intraday_rate` - Get latest USD/MYR (US Dollar - Malaysian Ringgit) interbank intraday highest and lowest exchange rate. Rates are obtained from the best U.S. dollar against Malaysian ringgit interbank highest and lowest dealt rates by commercial banks.
 

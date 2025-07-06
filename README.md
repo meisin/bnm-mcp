@@ -1,4 +1,4 @@
-# BNM-MCP
+# 💹💹 BNM-MCP 📊📊
 
 A Model Context Protocol (MCP) Server for connecting to the Bank Negara Malaysia (BNM) [Open API](https://apikijangportal.bnm.gov.my/openapi).
 This project provides tools to fetch various financial data from BNM, such as exchange rates, base rates, gold prices, and more.
@@ -6,7 +6,7 @@ This project provides tools to fetch various financial data from BNM, such as ex
 ## Disclaimer
 This MCP server is neither affiliated with BNM nor endorsed by BNM; the server leverages on BNM's OpenAPI endpoints and contains just a subset of BNM's API. 
 
-## Features
+## Features 📊💰🏦💹
 
 - Get currency exchange rates from the Interbank Foreign Exchange Market in Kuala Lumpur
 - Retrieve current Base Rates and Lending Rates
@@ -35,7 +35,7 @@ Method 2: For Unix systems (Linux, macOS):
 curl -LsSf https://astral.sh/uv/install.sh | sh
 ```
 
-## Getting Started
+## Getting Started 🛠️🛠️🛠️
 
 1. Clone this repository.
 ```sh

@@ -1,6 +1,6 @@
 # BNM-MCP
 
-A Modular Command Platform (MCP) for connecting to the Bank Negara Malaysia (BNM) public API.  
+A Model Context Protocol (MCP) Server for connecting to the Bank Negara Malaysia (BNM) [https://apikijangportal.bnm.gov.my/openapi](OpenAPI).
 This project provides tools to fetch various financial data from BNM, such as exchange rates, base rates, gold prices, and more.
 
 ## Features
@@ -17,22 +17,33 @@ This project provides tools to fetch various financial data from BNM, such as ex
 
 ## Requirements
 
-- Python 3.9+
-- [httpx](https://www.python-httpx.org/)
-- [pydantic](https://docs.pydantic.dev/)
-- MCP framework (assumed to be provided by `mcp.server.fastmcp`)
+- Python >=3.11
+- MCP SDK 1.2.0 or higher
+- `uv` package manager
 
-Install dependencies with:
-
+### Install uv Package Manager
+Method 1: Using pip (Recommended for most users)
 ```sh
-pip install httpx pydantic
+pip install uv
+```
+Method 2: For Unix systems (Linux, macOS):
+```sh
+curl -LsSf https://astral.sh/uv/install.sh | sh
 ```
 
 ## Usage
 
 1. Clone this repository.
-2. Ensure all dependencies are installed.
-3. Run the MCP server:
+```sh
+git clone 
+```
+
+2. Install dependencies.
+```sh
+uv sync
+```
+
+5. Run the MCP server:
 
 ```sh
 python main.py

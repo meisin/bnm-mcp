@@ -1,6 +1,6 @@
 # BNM-MCP
 
-A Model Context Protocol (MCP) Server for connecting to the Bank Negara Malaysia (BNM) [https://apikijangportal.bnm.gov.my/openapi](OpenAPI).
+A Model Context Protocol (MCP) Server for connecting to the Bank Negara Malaysia (BNM) [Open API](https://apikijangportal.bnm.gov.my/openapi).
 This project provides tools to fetch various financial data from BNM, such as exchange rates, base rates, gold prices, and more.
 
 ## Features

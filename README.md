@@ -25,6 +25,7 @@ This MCP server is neither affiliated with BNM nor endorsed by BNM; the server l
 - `uv` package manager
 
 ### Install uv Package Manager
+
 Method 1: Using pip (Recommended for most users)
 ```sh
 pip install uv
@@ -34,7 +35,7 @@ Method 2: For Unix systems (Linux, macOS):
 curl -LsSf https://astral.sh/uv/install.sh | sh
 ```
 
-## Usage
+## Getting Started
 
 1. Clone this repository.
 ```sh

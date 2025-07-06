@@ -1,0 +1,11 @@
+[project]
+name = "bnm-mcp"
+version = "0.1.0"
+description = "MCP Server for Bank Negara Malaysia OpenAPI endpoints"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "httpx>=0.28.1",
+    "mcp[cli]>=1.10.1",
+    "requests>=2.32.4",
+]

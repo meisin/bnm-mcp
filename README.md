@@ -46,10 +46,29 @@ uv sync
 5. Run the MCP server:
 
 ```sh
-python main.py
+uv run main.py
 ```
 
 The server will start and expose the tools via the MCP interface.
+
+## Connecting to Claude Desktop
+1. Install Claude Desktop from the official website
+2. Configure Claude Desktop to use your MCP server:
+```sh
+{
+    "mcpServers": {
+        "mcp-server": {
+            "command": "uv",  # It's better to use the absolute path to the uv command
+            "args": [
+                "--directory",
+                "/ABSOLUTE/PATH/TO/YOUR/bnm-mcp",
+                "run",
+                "main.py"
+            ]
+        }
+    }
+}
+```
 
 ## Tools Overview
 
@@ -65,18 +84,6 @@ Each tool is an async function decorated with `@mcp.tool()` and can be called to
 - `get_overnight_policy_rate()`
 - `get_usd_myr_intraday_rate()`
 - `get_usd_myr_reference_rate()`
-
-### Example Tool Call
-
-```python
-result = await get_exchange_rate(session=EX_session(session="0900"), quote=Base_currency(quote="fx"))
-print(result)
-```
-
-## Configuration
-
-- The API base URL is set to `https://api.bnm.gov.my/public`
-- User-Agent is set to `bnm-app/1.0`
 
 ## License
 

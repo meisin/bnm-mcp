@@ -8,7 +8,7 @@ This MCP server is neither affiliated with BNM nor endorsed by BNM; the server l
 
 ## Available Tools 📊💰🏦💹
 
-### Exchange Rates & Currency
+### Exchange Rates & Currency 🪙
 
 **`get_exchange_rate`** - Get currency exchange rates from the Interbank Foreign Exchange Market in Kuala Lumpur. Prices of selected countries' currencies are quoted in relation to Ringgit.
 
@@ -18,61 +18,61 @@ This MCP server is neither affiliated with BNM nor endorsed by BNM; the server l
 
 **`get_daily_FX_turnover`** - Get daily foreign exchange turnover for all currencies including interbank and customer deals.
 
-### Interest Rates
+### Interest Rates 🪙
 
 **`get_base_rate`** - Get current Base Rates or Base Lending Rates for retail loans or financing facilities and Indicative Effective Lending Rates for a standard housing loan/home financing offered by financial institutions in Malaysia.
 
 **`get_overnight_policy_rate`** - Get Overnight Policy Rate (OPR) decided by the Monetary Policy Committee.
 
-`get_malaysia_overnight_rate_i` - Get Malaysia overnight rate from Bank Negara Malaysia.
+**`get_malaysia_overnight_rate_i`** - Get Malaysia overnight rate from Bank Negara Malaysia.
 
-`get_islamic_interbank_rate` - Get daily weighted average of Islamic interbank deposit rates for various tenures.
+**`get_islamic_interbank_rate`** - Get daily weighted average of Islamic interbank deposit rates for various tenures.
 
-`get_interest_rates_banking_institution` - Get interest rates by banking institution.
+**`get_interest_rates_banking_institution`** - Get interest rates by banking institution.
 
-### Money & Banking
+### Money & Banking 🪙
 
-`get_reserve_money` - Get latest reserve money data by Bank Negara Malaysia.
+**`get_reserve_money`** - Get latest reserve money data by Bank Negara Malaysia.
 
-`get_currency_circulation_by_denomination` - Get Currency in Circulation by Denomination of:
-- **Coins:** one cent, five cent, ten cent, twenty cent, fifty cent, one ringgit
-- **Notes:** one ringgit, five ringgit, ten ringgit, twenty ringgit, fifty ringgit, one hundred ringgit
+**`get_currency_circulation_by_denomination`** - Get Currency in Circulation by Denomination of:
+- *Coins*: one cent, five cent, ten cent, twenty cent, fifty cent, one ringgit
+- *Notes:* one ringgit, five ringgit, ten ringgit, twenty ringgit, fifty ringgit, one hundred ringgit
 
-`get_monetary_aggregates_M1_M2_M3` - Get monetary aggregates M1, M2, and M3 data by Bank Negara Malaysia.
+**`get_monetary_aggregates_M1_M2_M3`** - Get monetary aggregates M1, M2, and M3 data by Bank Negara Malaysia.
 
-`get_broad_money_M3` - Get Broad Money M3 data by Bank Negara Malaysia.
+**`get_broad_money_M3`** - Get Broad Money M3 data by Bank Negara Malaysia.
 
-`get_bnm_statement_assets` - Get statement of assets of Bank Negara Malaysia.
+**`get_bnm_statement_assets`** - Get statement of assets of Bank Negara Malaysia.
 
-`get_banking_system_statement_assets` - Get statement of assets for banking systems. Available banking institution types: commercial, islamic, investment, total.
+**`get_banking_system_statement_assets`** - Get statement of assets for banking systems. Available banking institution types: commercial, islamic, investment, total.
 
-### Market Data
-`get_interbank_swap` - Get daily interbank swap volume by tenure.
+### Market Data 🪙
+**`get_interbank_swap`** - Get daily interbank swap volume by tenure.
 
-`get_kijang_emas` - Get daily trading prices of Malaysia gold bullion coin.
+**`get_kijang_emas`** - Get daily trading prices of Malaysia gold bullion coin.
 
-`get_malaysian_government_securities_market_indicative_yield` - Get Malaysian Government securities Market Indicative Yield from Bank Negara Malaysia.
+**`get_malaysian_government_securities_market_indicative_yield`** - Get Malaysian Government securities Market Indicative Yield from Bank Negara Malaysia.
 
-`get_volume_transaction_interbank_money_market` - Get Volume of Transaction in Interbank Money Market from Bank Negara Malaysia.
+**`get_volume_transaction_interbank_money_market`** - Get Volume of Transaction in Interbank Money Market from Bank Negara Malaysia.
 
-`get_volume_transaction_kl_foreign_exchange_market` - Get Volume of Interbank Transactions in the Kuala Lumpur Foreign Exchange Market from Bank Negara Malaysia.
+**`get_volume_transaction_kl_foreign_exchange_market`** - Get Volume of Interbank Transactions in the Kuala Lumpur Foreign Exchange Market from Bank Negara Malaysia.
 
-`get_bond_market_highlights` - Get market highlights for the bond market.
+**`get_bond_market_highlights`** - Get market highlights for the bond market.
 
-### Government & Economy
+### Government & Economy🪙
 
-`get_federal_government_finance` - Get Federal Government Finance data.
+**`get_federal_government_finance`** - Get Federal Government Finance data.
 
-`get_external_reserves` - Get information of External Reserves from Bank Negara Malaysia.
+**`get_external_reserves`** - Get information of External Reserves from Bank Negara Malaysia.
 
-`get_labour_market_indicators_financial_services_sector` - Get Labour Market Indicators for the Financial Services Sector from Bank Negara Malaysia.
+**`get_labour_market_indicators_financial_services_sector`** - Get Labour Market Indicators for the Financial Services Sector from Bank Negara Malaysia.
 
-### Consumer Protection
+### Consumer Protection🪙
 
-`get_financial_consumer_alert` - Get list of companies and websites which are neither authorised nor approved under the relevant laws and regulations administered by BNM.
+**`get_financial_consumer_alert`** - Get list of companies and websites which are neither authorised nor approved under the relevant laws and regulations administered by BNM.
 
-### Islamic Finance
- `get_takaful_key_indicators` - Get Takaful Key Indicators from Bank Negara Malaysia.
+### Islamic Finance🪙
+** `get_takaful_key_indicators`** - Get Takaful Key Indicators from Bank Negara Malaysia.
 
 ## Requirements
 

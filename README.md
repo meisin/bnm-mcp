@@ -3,6 +3,9 @@
 A Model Context Protocol (MCP) Server for connecting to the Bank Negara Malaysia (BNM) [Open API](https://apikijangportal.bnm.gov.my/openapi).
 This project provides tools to fetch various financial data from BNM, such as exchange rates, base rates, gold prices, and more.
 
+## Disclaimer
+This MCP server is neither affiliated with BNM nor endorsed by BNM; the server leverages on BNM's OpenAPI endpoints and contains just a subset of BNM's API. 
+
 ## Features
 
 - Get currency exchange rates from the Interbank Foreign Exchange Market in Kuala Lumpur
